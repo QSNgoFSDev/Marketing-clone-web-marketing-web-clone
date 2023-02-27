@@ -1,0 +1,295 @@
+/* reset css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  font-family:"lato", sans-serif;
+}
+
+/* img setting */
+
+img {
+  
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* DBCP grid setting */
+/* Pricing general setting */
+
+.Basic,
+.Pro,
+.Premium {
+
+  list-style-type: none;
+  font-size: 15px;
+  line-height: 22.5px;
+  margin: 0px 0px 16px;
+  padding: 0px 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.Basic:hover {box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;}
+.Pro:hover {box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.Premium:hover {
+box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+
+#Basic,
+#Premium {
+  background-color: #000000;
+  color: #ffffff;
+
+  font-family: "Lato";
+  font-size: 24px;
+  line-height: 36px;
+  padding: 32px 16px;
+  text-align: center;
+}
+
+#Pro {
+  background-color: #616161;
+  color: #ffffff;
+  display: list-item;
+  font-family: Lato;
+  font-size: 24px;
+  line-height: 36px;
+  padding: 32px 16px;
+  text-align: center;
+}
+
+.Pricing-grid-container li {
+  display: list-item;
+  font-family: "Lato";
+  font-size: 15px;
+  line-height: 22.5px;
+  padding: 16px;
+  text-align: center;
+}
+
+.Pricing-grid-container li {
+  border: 0.5px solid #ccc;
+}
+
+h2 {
+  font-family: "Lato";
+  font-size: 30px;
+  letter-spacing: 4px;
+  line-height: 45px;
+  margin: 10px 0px;
+  text-align: center;
+}
+
+.button {
+  background-color: #f1f1f1;
+  display: list-item;
+  font-family: "Lato";
+  font-size: 15px;
+  line-height: 22.5px;
+  padding: 24px 16px;
+  text-align: center;
+}
+
+.button button {
+  color: white;
+  align-items:
+  flex-start;
+  background-color:
+  green;
+  display:
+  inline-block
+  font-family:
+  "Lato"
+  font-size:
+  15px;
+  line-height:
+  22.5px;
+  padding:
+  12px 24px;
+  text-align:
+  center;
+}
+
+.button button:hover {
+  color:black ;
+  background-color: #ccc;
+  cursor: pointer;
+
+  transition: all 0.3s ease-in-out
+}
+
+
+
+/* Who We Are Css */
+
+.WWA-container, .Contact-Us {
+  font-size:
+  24px;
+  line-height:
+  22.5px;
+  padding:
+  64px 0px;
+  text-align:
+  center;
+  font-weight: 600;
+  text-decoration: underline 3px black;
+  text-underline-offset: 1.5em;}
+
+
+.Name-Container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style-type: none;line-height:
+22.5px;
+margin:
+0px 0px 16px;
+padding:
+0px 8px;
+    
+}
+
+  .Jane, .Mike, .John {
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    
+font-size:
+15px;
+line-height:
+22.5px;
+padding:
+0.15px 16px;
+
+}
+
+.Name {
+  font-size:
+  24px;
+  line-height:
+  36px;
+  margin:
+  10px 0px;}
+
+.Title {
+
+line-height:
+22.5px;
+margin:
+15px 0px;
+}
+
+.Para {
+
+line-height:
+22.5px
+margin:
+15px 0px
+}
+/* css button */
+.contact-button button {
+  width: 100%;
+
+align-items:
+flex-start;
+background-color:
+#cccccc
+
+font-size:
+15px;
+line-height:
+22.5px;
+padding:
+8px 16px;
+text-align:
+center;
+}
+
+.contact-button button:hover {
+ 
+  transition: all;
+  cursor: pointer;
+  background-color: lightgrey;
+  transition: 0.3s ease-in-out;}
+
+
+
+
+
+
+
+/* contact us css */
+
+.form
+{
+  line-height:
+  22.5px;
+  padding:
+  0.15px 16px;}
+
+.inputName, .inputEmail, .inputSubject, .inputSubject {line-height:
+  22.5px;
+  margin:
+  16px 0px;
+  width: 100%;
+}
+
+.input:hover {
+background-color:
+#ffffff;
+border-color:
+#000000;
+border-style:
+solid;
+border-width:
+1.33333px;
+font-family:
+Lato;
+font-size:
+15px;
+line-height:
+22.5px;
+padding
+8px;
+  }
+
+.send {align-items:
+  flex-start;
+  background-color:
+  black;
+  font-size:
+  15px;
+  line-height:
+  22.5px;
+  padding:
+  8px 16px;
+  text-align:
+  center;}
+
+.send button { background-color:
+black;
+border: transparent;
+color: #ccc;
+}
+
+.send:hover {
+  transition: ease-in-out 0.3s;
+  color: black;
+  background-color: white;
+}
+
+.send button:hover {
+
+  transition: ease-in-out 0.3s;
+  color: black;
+  background-color: white;
+}
+
+
+
