@@ -1,5 +1,8 @@
-
-    
-
-    
-
+@media (max-width: 300px) {
+  .DBCP-grid-container,
+  .Pricing-grid-container,
+  .Name-Container {
+    grid-template-columns: repeat (1, 1fr);
+  }
+}
+/* query.css khong nhan */
